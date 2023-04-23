@@ -1,9 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-
+import { useRouter } from 'vue-router'
+const router = useRouter()
 defineProps<{ msg: string }>()
 
 const count = ref(0)
+
+const goMain = function () {
+  router.push({
+    path: '/main'
+  })
+}
 </script>
 
 <template>
@@ -14,8 +21,7 @@ const count = ref(0)
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
     </p>
-    <n-button>naive-ui</n-button>
-    <n-button type="warning"> Warning </n-button>
+    <n-button type="warning" @click="goMain">let's Go</n-button>
   </div>
 
   <p>

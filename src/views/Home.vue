@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div>
+    <div class="image">
       <a href="https://vitejs.dev" target="_blank">
         <img src="/vite.svg" class="logo" alt="Vite logo" />
       </a>
@@ -15,19 +15,19 @@
       </a>
     </div>
     <HelloWorld msg="a composition template of vue by vite" />
-    <h2>Home</h2>
+    <!-- <h2>Home</h2>
     <div class="home-nav">
       <router-link to="/home/recommend">推荐</router-link>
       <br />
       <router-link to="/home/ranking">排行</router-link>
     </div>
-    <button @click="logoutClick">退出登录</button>
+    <button @click="logoutClick">退出登录</button> -->
 
-    <div>{{ count }}</div>
+    <!-- <div>{{ count }}</div>
     <div>{{ counterStore.doubleCount }}</div>
     <div>{{ counterStore.getFriendById(111) }}</div>
     <div>{{ counterStore.showMessage }}</div>
-    <button @click="incrementCount">count+1</button>
+    <button @click="incrementCount">count+1</button> -->
     <!-- 占位组件 -->
     <router-view></router-view>
   </div>
@@ -49,6 +49,9 @@ function incrementCount() {
 </script>
 
 <style scoped>
+.image {
+  margin: 0 auto;
+}
 .logo {
   height: 6em;
   padding: 1.5em;

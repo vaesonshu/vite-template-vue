@@ -3,6 +3,7 @@ import path from 'path'
 import vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite'
 import { NaiveUiResolver } from 'unplugin-vue-components/resolvers'
+import UnoCSS from 'unocss/vite'
 
 export default defineConfig({
   optimizeDeps: {
@@ -31,6 +32,7 @@ export default defineConfig({
     vue(),
     Components({
       resolvers: [NaiveUiResolver()]
-    })
+    }),
+    UnoCSS()
   ]
 })

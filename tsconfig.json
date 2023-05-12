@@ -10,7 +10,7 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
-    "skipLibCheck": true,
+    "skipLibCheck": true, // 是否跳过node_modules目录的检查
     "noEmit": true,
     "types": ["vite/client"],
     "baseUrl": ".",

@@ -1,7 +1,7 @@
 <template>
   <div class="home-recommend">
-    <h2>HomeRecommend</h2>
-    <span>推荐歌单</span>
+    <!-- <h2>HomeRecommend</h2> -->
+    <!-- <span>推荐歌单</span> -->
     <!-- <ul>
       <template v-for="item in banners">
         <img :src="item.image" alt="" />

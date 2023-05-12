@@ -14,7 +14,7 @@
         <img src="../assets/naiveui.svg" class="logo naiveui" alt="NaiveUI logo" />
       </a>
     </div>
-    <HelloWorld msg="a composition template of vue by vite" />
+    <!-- <HelloWorld msg="a composition template of vue by vite" /> -->
     <!-- <h2>Home</h2>
     <div class="home-nav">
       <router-link to="/home/recommend">推荐</router-link>
